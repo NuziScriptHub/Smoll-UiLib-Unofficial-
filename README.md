@@ -1,20 +1,12 @@
-# Mania UiLib Unofficial
-Mania UiLib is simply it Smoll UiLib but i modified to make more functional than that
-
-# Thing I Add
-*Textbox
-*MultiTextbox
-*Keyblind
-*Colorpicker // Buggy
-*Progress Bar // Buggy
-
-# When Did You Will Fix That
-Idk lol
+# Mania UiLib
+Why it look like Smoll UiLib
+yeah this is Smoll UiLib but i Moddify to have more function
 
 # Previous
 ![Screenshot_20250412-121055_Roblox](https://github.com/user-attachments/assets/7c25c11c-d362-460a-b40c-19cc7bafd17c)
 
 # Example
+```lua
 local ManiaUi = loadstring(game:HttpGet('https://raw.githubusercontent.com/NuziScriptHub/Smoll-UiLib-Unofficial-/refs/heads/main/Source.lua'))()
 local Ui = ManiaUi.SetupUI({
     Title = "Mania Ui Lib Example"
@@ -113,3 +105,4 @@ MainTab.CreateProgressBar({
 -- Label
 MainTab.CreateLabel("Middle Text", Enum.TextXAlignment.Center)
 MainTab.CreateLabel("Left Text", Enum.TextXAlignment.Left)
+```
